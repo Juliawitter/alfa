@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(255, 185, 139);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  
+  padding: 30px;
+}
+
+.listas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lista-in{
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0 0 10px rgba(0, 0, 0, o.2);
+  transition: transform 100ms ease-in-out;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.lista-in:hover{
+  transform: scale(1.05);
+}
+
+.post-content{
+  padding: 30px;
+}
+
+.buscabarra{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.buscabarra input{
+
+  border-radius: 10px;
+
+}
+.Cabecalho{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+}
+
+.Cabecalho img{
+  height: 400px;
+}
+
+  .if img{
+    height: 150px;
+
+  }
+  .if{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
