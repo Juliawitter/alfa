@@ -4,7 +4,7 @@ export const Rodape=()=> {
     return(
         <div className='if'> 
         <div>
-            <img src={JULIA} className='rodape'/>
+            <img src={JULIA} alt=" logo" className='rodape'/>
             </div> 
             <div className='nome'>
                 <p>Trabalho de FrameWorks- Júlia e Stefhany</p>
